@@ -11,7 +11,13 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
+/* Ensures the image fits within the page */
+.homepage-image {
+    max-width: 100%; /* Ensures the image never exceeds the container width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any extra spacing below the image */
+    margin: 0 auto; /* Centers the image horizontally */
+}
 /* Header Styles */
 header {
     background-color: #333;
