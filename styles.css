@@ -8,14 +8,14 @@ body, html {
 
 /* Fullscreen background container */
 .fullscreen-background {
-    background-image: url('homepage-image.jpg'); /* Replace with your image file name */
-    background-size: cover; /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-image: url('homepage-image.jpg'); /* This matches your image name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh; /* Full viewport height */
-    width: 100%; /* Full width */
-    position: relative; /* Allows absolute positioning for text */
-    color: white; /* Default text color */
+    width: 100%;
+    position: relative;
+    color: white;
 }
 
 /* Upper-left text styling */
