@@ -15,7 +15,6 @@ body, html {
     height: 100vh; /* Full viewport height */
     width: 100%;
     position: relative;
-    color: white;
 }
 
 /* Upper-left text styling */
