@@ -4,54 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurt Stephens</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
-        /* Fullscreen background */
-        body, html {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            height: 100%;
+            padding: 40px;
+            background-color: white;
+        }
+
+        /* Header */
+        .header {
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            justify-content: center;
-            background-color: #f4f4f9;
+            padding: 20px;
         }
 
-        /* Centered name */
-        .name {
-            font-size: 5rem; /* Big text */
-            font-weight: bold;
-            text-align: center;
-        }
-
-        /* Upper-left branding */
-        .branding {
-            position: absolute;
-            top: 20px;
-            left: 20px;
+        .logo {
             font-size: 1.5rem;
             font-weight: bold;
         }
 
-        /* Upper-right menu */
-        .menu {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            font-size: 1.2rem;
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Centered Content */
+        .content {
+            max-width: 800px;
+            margin: 100px 0 0 50px; /* Aligns image to the left */
+        }
+
+        .image-container {
+            width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Branding in upper-left -->
-    <div class="branding">Kurt Stephens</div>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">KURT STEPHENS</div>
+        <div class="nav">
+            <a href="#">blog</a>
+            <a href="#">videography</a>
+            <a href="#">photography</a>
+            <a href="#">contact</a>
+        </div>
+    </div>
 
-    <!-- Name in center -->
-    <div class="name">Kurt Stephens</div>
-
-    <!-- Menu in upper-right -->
-    <div class="menu">About</div>
+    <!-- Image Section -->
+    <div class="content">
+        <img class="image-container" src="homepage-image.jpg" alt="Otranto, Italy 2023">
+        <p class="caption">Otranto. Italy. 2023.</p>
+    </div>
 
 </body>
 </html>
