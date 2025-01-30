@@ -5,18 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurt Stephens</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Fullscreen background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f9;
+        }
+
+        /* Centered name */
+        .name {
+            font-size: 5rem; /* Big text */
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Upper-left branding */
+        .branding {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Upper-right menu */
+        .menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
-    <!-- Fullscreen background container -->
-    <div class="fullscreen-background">
-        <!-- Upper-left text -->
-        <div class="branding">
-            Kurt Stephens
-        </div>
-        <!-- Upper-right text -->
-        <div class="menu">
-            About
-        </div>
-    </div>
+
+    <!-- Branding in upper-left -->
+    <div class="branding">Kurt Stephens</div>
+
+    <!-- Name in center -->
+    <div class="name">Kurt Stephens</div>
+
+    <!-- Menu in upper-right -->
+    <div class="menu">About</div>
+
 </body>
 </html>
