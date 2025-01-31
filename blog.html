@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Blog Page</h1>
-    <p>This is where your blog content will go.</p>
+
+    <div class="container">
+        <h1>Blog</h1>
+        <p>Welcome to my blog page.</p>
+        <a href="index.html" class="back-button">Back to Homepage</a>
+    </div>
+
 </body>
 </html>
